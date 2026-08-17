@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  our-lady-magazine:
+    build: .
+    container_name: our_lady_magazine_web
+    restart: unless-stopped
+    ports:
+      - "8080:80"
+    environment:
+      - NODE_ENV=production
