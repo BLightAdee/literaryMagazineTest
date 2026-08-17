@@ -102,16 +102,19 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenSubmission }) 
           </div>
         </div>
 
-        {/* Bottom Bar & Vibe Coded Disclaimer */}
+        {/* Bottom Bar & AI Vibe Coded Disclaimer */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-editorial-muted">
           <div>
             &copy; {new Date().getFullYear()} Our Lady Magazine • Notre Dame High School Literary Board. All rights reserved.
           </div>
 
-          {/* Mandatory Vibe Coded Disclaimer Badge */}
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-surface-container-highest/80 border border-editorial-border font-medium text-editorial-ink text-[11px]">
+          {/* AI Vibe Coded Disclaimer Badge */}
+          <div 
+            title="Vibe coding: Designed and developed collaboratively with Artificial Intelligence (AI)"
+            className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-surface-container-highest/80 border border-editorial-border font-medium text-editorial-ink text-[11px]"
+          >
             <Sparkles className="w-3.5 h-3.5 text-secondary" />
-            <span>Crafted with passion • <strong>Vibe Coded</strong> with Material 3 Expressive</span>
+            <span>Crafted with passion • <strong>Vibe Coded with AI</strong> (Material 3 Expressive)</span>
           </div>
         </div>
 

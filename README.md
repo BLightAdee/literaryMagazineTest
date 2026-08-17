@@ -1,103 +1,139 @@
-# 📖 Our Lady Magazine
+# Our Lady Magazine
 
-> **Official Literary & Arts Journal of Notre Dame High School**  
+> **The Official Digital Literary & Visual Arts Journal of Notre Dame High School**  
 > *Volume 34 • Established 1991*
 
-[![Vibe Coded](https://img.shields.io/badge/Vibe%20Coded-100%25-blueviolet?style=for-the-badge&logo=sparkles)](https://github.com/)
-[![Material 3 Expressive](https://img.shields.io/badge/Material%203-Expressive%20Design-1E3A8A?style=for-the-badge&logo=google)](https://m3.material.io/)
-[![React 19](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react)](https://react.dev/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
-[![Vite](https://img.shields.io/badge/Vite-7-646CFF?style=for-the-badge&logo=vite)](https://vitejs.dev/)
+[![Material Design 3](https://img.shields.io/badge/Design%20System-Material%203%20Expressive-1E3A8A?style=flat-square&logo=google)](https://m3.material.io/)
+[![React](https://img.shields.io/badge/Frontend-React%2019%20%7C%20TypeScript-61DAFB?style=flat-square&logo=react)](https://react.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Styling-Tailwind%20CSS%20v4-38B2AC?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/)
+[![Vite](https://img.shields.io/badge/Bundler-Vite%207-646CFF?style=flat-square&logo=vite)](https://vitejs.dev/)
+[![AI Vibe Coded](https://img.shields.io/badge/Development-AI%20Vibe%20Coded-8B5CF6?style=flat-square&logo=sparkles)](https://github.com/)
+[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
 ---
 
-## ⚡ Vibe Coding Disclaimer
+## 🤖 Development Methodology & AI Vibe Coding Disclaimer
 
-> [!IMPORTANT]
-> **Disclaimer**: This entire project was **vibe coded** with love, intuition, and high-frequency aesthetic flow. Every pixel, spring curve, tonal palette, and strophe was crafted to harmonize Google's Material 3 Expressive design with the timeless collegiate humanities tradition of Notre Dame.
-
----
-
-## 🌟 Overview & Heritage
-
-**Our Lady Magazine** is the flagship student-run literary and visual arts publication of Notre Dame High School. Named in honor of *Notre Dame* ("Our Lady"), the journal serves as a creative sanctuary for student poets, essayists, short fiction writers, and visual artists across grades 9 through 12.
-
-### ✨ Key Features
-
-- 🏛️ **Hero Showcase & Current Edition**: Instantly highlights the latest volume with cover art, themes, and curated student pieces.
-- 📚 **Chronological Issue Archive**: Browse all published volumes sorted automatically by **most recent** release, with real-time search, semester filters (Fall, Winter, Spring), and academic year grouping.
-- 🖋️ **Immersive Editorial Reader**:
-  - Distraction-free reading environment.
-  - Multi-theme support: **Classic Paper White**, **Warm Sepia**, and **Nocturne Dark**.
-  - Typography controls: Switch between **Editorial Serif** (*Newsreader / EB Garamond*) and **Variable Sans** (*Google Sans Flex / Plus Jakarta Sans*), with dynamic font size scaling.
-  - Formatted poetry stanza preservation and high-resolution visual art viewer with artist statements.
-  - Fast table of contents and genre filtering (Poetry, Fiction, Essays, Visual Art).
-- 🛡️ **Editor Authentication & Portal**:
-  - Secure login portal with role-based identities (Editor-in-Chief, Managing Editor, Poetry Editor, Art Director, Faculty Advisor).
-  - One-click instant demo accounts for zero-friction testing.
-- 🎨 **Issue & Piece Publishing Studio**:
-  - Rich issue creation and editing workflow.
-  - Curated Notre Dame aesthetic cover art presets or custom media URLs.
-  - Piece manager: Add multi-author poetry, prose, and artwork with grade levels and award badges (*Editor's Choice*, *Gold Key*).
-  - Draft vs. Live publication state management.
-  - Tactile celebration confetti upon publishing.
-- 📨 **Interactive Student Submissions Portal**:
-  - Live submission simulator for students to submit creative work with real-time word counting and genre guidelines.
-  - Editorial review panel in the Editor Dashboard.
+> [!NOTE]
+> **Project Origin & Vibe Coding Statement**:  
+> This project was developed through **vibe coding**—an emerging development paradigm where application architecture, user interfaces, logic, and styling are generated and iteratively refined using **Artificial Intelligence (AI)** guided by high-level prompts, domain requirements, and aesthetic specifications. 
+>
+> While the codebase leverages automated generative models for rapid prototyping and implementation, all architectural layers—including Material Design 3 Expressive tokens, component encapsulation, type safety, and deployment pipelines—have been structured to adhere to industry standards and best practices.
 
 ---
 
-## 🎨 Design System: Google Material 3 Expressive
+## 📖 Executive Summary
 
-The application is built following Google's **Material 3 Expressive** design language:
+**Our Lady Magazine** is a modern, responsive web application engineered for the student-led literary board of Notre Dame High School. The platform serves dual purposes:
 
-1. **Collegiate Pastel & Tonal Palette**:
-   - Primary: Notre Dame Navy (`#1E3A8A`) & Royal Blue
-   - Secondary: Honey Amber & Golden Dome Gold (`#D97706`)
-   - Tertiary: Sage Pine (`#0F766E`)
-   - Surface Containers: Warm Literary Paper (`#FAF8F5`, `#F2EDE4`)
-2. **Physics-Based Spring Interactions**:
-   - Expressive bouncy spring curves (`cubic-bezier(0.34, 1.56, 0.64, 1)`).
-   - Tactile button squish and lift on hover/press.
-   - Dynamic pill badges and rounded container elevation levels (`--shadow-m3-1` to `--shadow-m3-4`).
-3. **Fluid Typography**:
-   - Headings & Accents: **Fraunces** & **Plus Jakarta Sans / Google Sans Flex**
-   - Body & Stanzas: **Newsreader** & **EB Garamond**
+1. **Public Reading Experience**: An elegant, distraction-free environment for exploring published seasonal editions, individual poetry, short stories, essays, and visual art, automatically organized in reverse-chronological order.
+2. **Editorial Control Suite**: An authenticated administrative interface allowing student editors and faculty advisors to curate submissions, author new issues, upload cover media, format pieces, and manage publication states.
+
+The application adheres strictly to **Google's Material 3 Expressive** design specification, combining fluid typography, spring-physics micro-interactions, and a bespoke collegiate tonal palette.
 
 ---
 
-## 🚀 Quick Start (Local Development)
+## 📐 System Architecture & Technology Stack
 
-### Prerequisites
-- Node.js `18.0+` or `20.0+`
-- npm `9.0+`
-
-### 1. Clone & Install
-```bash
-git clone https://github.com/your-username/our-lady-magazine.git
-cd our-lady-magazine
-npm install
+```text
+literaryMagazine/
+├── src/
+│   ├── components/
+│   │   ├── editor/          # Issue & Piece Editor Studio
+│   │   ├── issues/          # IssueCard & full-screen IssueReader
+│   │   ├── layout/          # Material 3 Expressive Navbar & Footer
+│   │   └── submissions/     # Student Submission portal modal
+│   ├── context/
+│   │   └── AuthContext.tsx  # Authentication & session state management
+│   ├── pages/
+│   │   ├── HomePage.tsx     # Hero showcase & latest volume release
+│   │   ├── IssuesPage.tsx   # Reverse-chronological archive & filtering
+│   │   ├── AboutPage.tsx    # Masthead, school history & guidelines
+│   │   ├── LoginPage.tsx    # Editor sign-in interface
+│   │   └── EditorDashboard.tsx # Publication control & submission review
+│   ├── services/
+│   │   ├── mockData.ts      # Seed data for historical volumes
+│   │   └── storage.ts       # Persistence engine & client-side CRUD
+│   ├── types/
+│   │   └── magazine.ts      # TypeScript interfaces and domain models
+│   ├── App.tsx              # Main routing & state orchestrator
+│   ├── index.css            # M3 Expressive design tokens & spring physics
+│   └── main.tsx             # Application bootstrap
+├── Dockerfile               # Multi-stage production container build
+├── docker-compose.yml       # Production orchestration
+├── nginx.conf               # Nginx reverse proxy configuration
+├── server.js                # Lightweight Node.js static & SPA server
+└── vite.config.ts           # Bundler configuration
 ```
 
-### 2. Run Local Development Server
-```bash
-npm run dev
-```
-Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-### 3. Build for Production
-```bash
-npm run build
-```
-The compiled, minified production assets will be output to the `dist/` directory.
+### Core Technologies
+- **UI Framework**: React 19 with TypeScript 5.9
+- **Design System**: Material Design 3 Expressive (Tonal color palettes, dynamic elevation, variable fonts)
+- **Styling**: Tailwind CSS v4 with custom CSS variable tokens
+- **Animation Engine**: Framer Motion & CSS custom spring bezier curves (`cubic-bezier(0.34, 1.56, 0.64, 1)`)
+- **Icons**: Lucide React
+- **Build Tool**: Vite 7
 
 ---
 
-## 🔑 Demo Editor Accounts
+## 🎨 Design System Implementation
 
-For instant access to the **Editor Studio**, navigate to **Editor Portal** and use any of the pre-filled demo accounts:
+The user interface follows the **Google Material 3 Expressive** design principles:
 
-| Role | Name | Email | Password |
+### 1. Collegiate Tonal Palette
+| Token | Hex Code | Role |
+| :--- | :--- | :--- |
+| `primary` | `#1E3A8A` | Notre Dame Collegiate Navy — Core brand actions |
+| `primary-container` | `#DBEAFE` | Soft Blue Surface — High-emphasis containers |
+| `secondary` | `#D97706` | Golden Dome Honey Amber — Editorial accents |
+| `secondary-container`| `#FEF3C7` | Warm Gold Tint — Highlight cards & badges |
+| `tertiary` | `#0F766E` | Deep Sage — Supplementary indicators |
+| `surface` | `#FAF8F5` | Warm Literary Paper — Base reading background |
+| `surface-container` | `#F2EDE4` | Muted Card Layer — Structural dividers |
+
+### 2. Typographic Pairing
+- **Headings & Display**: *Fraunces* (Optical size variable) & *Plus Jakarta Sans / Google Sans Flex*
+- **Body Text & Stanzas**: *Newsreader* & *EB Garamond* (Fine editorial serif with true open-type ligatures)
+
+---
+
+## 🚀 Getting Started (Local Development)
+
+### System Requirements
+- Node.js `18.0.0` or later
+- npm `9.0.0` or later
+
+### Installation Steps
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/<your-organization>/our-lady-magazine.git
+   cd our-lady-magazine
+   ```
+
+2. **Install project dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Start the local development server**:
+   ```bash
+   npm run dev
+   ```
+   The application will be accessible at `http://localhost:3000`.
+
+4. **Verify production build**:
+   ```bash
+   npm run build
+   ```
+
+---
+
+## 🔑 Authentication & Demo Credentials
+
+The platform includes built-in role management for editorial staff. For evaluation purposes, pre-configured demo credentials can be accessed via the **Editor Portal**:
+
+| Role | Contributor | Email | Password |
 | :--- | :--- | :--- | :--- |
 | **Editor-in-Chief** | Genevieve Beaulieu (Senior) | `editor@ourlady.edu` | `notredame2026` |
 | **Managing Editor** | Julian Vance (Senior) | `julian.vance@ourlady.edu` | `notredame2026` |
@@ -105,43 +141,40 @@ For instant access to the **Editor Studio**, navigate to **Editor Portal** and u
 | **Art Director** | Marcus Chen (Senior) | `marcus.chen@ourlady.edu` | `notredame2026` |
 | **Faculty Advisor** | Dr. Evelyn Holloway | `dr.holloway@ourlady.edu` | `notredame2026` |
 
-*(You can also log in with any custom `@ourlady.edu` address).*
+*Note: Any email containing `@ourlady.edu` is accepted for development and testing.*
 
 ---
 
-## 🌐 Server Deployment Instructions
+## 🌐 Server Deployment Guide
 
-You can deploy **Our Lady Magazine** using any of the following standard hosting methods:
+### Option 1: Docker & Docker Compose (Recommended for VPS)
 
-### Method A: Docker / Docker Compose (Recommended for VPS)
+The repository includes a multi-stage `Dockerfile` and `docker-compose.yml` for automated, containerized deployments.
 
-1. Ensure Docker and Docker Compose are installed on your server.
-2. Clone the repository to your server:
-   ```bash
-   git clone https://github.com/your-username/our-lady-magazine.git
-   cd our-lady-magazine
-   ```
-3. Start the container in detached mode:
+1. **Build and deploy containers**:
    ```bash
    docker compose up -d --build
    ```
-4. Access the web app at `http://YOUR_SERVER_IP:8080`.
+
+2. **Verify container health**:
+   ```bash
+   docker compose ps
+   ```
+   The web service will be served on port `8080` via a lightweight Nginx Alpine container.
 
 ---
 
-### Method B: Standalone Node.js Express Server (Ubuntu / Debian VPS)
+### Option 2: Linux VPS (Ubuntu / Debian) with PM2 & Node.js
 
-1. Build the production application on the server:
+1. **Build the production bundle on the target server**:
    ```bash
    npm install
    npm run build
    ```
-2. Install PM2 process manager:
+
+2. **Process Management with PM2**:
    ```bash
    npm install -g pm2
-   ```
-3. Start the application:
-   ```bash
    PORT=8080 pm2 start server.js --name "our-lady-magazine"
    pm2 save
    pm2 startup
@@ -149,17 +182,23 @@ You can deploy **Our Lady Magazine** using any of the following standard hosting
 
 ---
 
-### Method C: Nginx Reverse Proxy with SSL (Certbot)
+### Option 3: Enterprise Nginx Web Server with TLS (Let's Encrypt)
 
-Configure your Nginx server block (`/etc/nginx/sites-available/ourlady`):
+Create an Nginx virtual host configuration at `/etc/nginx/sites-available/our-lady-magazine`:
 
 ```nginx
 server {
-    server_name magazine.your-school.org;
+    listen 80;
+    server_name magazine.notredame.edu;
 
     root /var/www/our-lady-magazine/dist;
     index index.html;
 
+    # Gzip Compression
+    gzip on;
+    gzip_types text/plain text/css application/json application/javascript text/xml application/xml application/xml+rss text/javascript;
+
+    # SPA Routing Fallback
     location / {
         try_files $uri $uri/ /index.html;
     }
@@ -172,64 +211,43 @@ server {
 }
 ```
 
-Enable SSL:
+Enable the configuration and secure with SSL:
 ```bash
-sudo certbot --nginx -d magazine.your-school.org
+sudo ln -s /etc/nginx/sites-available/our-lady-magazine /etc/nginx/sites-enabled/
+sudo nginx -t
+sudo systemctl reload nginx
+sudo certbot --nginx -d magazine.notredame.edu
 ```
 
 ---
 
-### Method D: Static Cloud Hosting (Vercel, Netlify, Cloudflare Pages)
+### Option 4: Cloud Static Hosting (Vercel, Netlify, Cloudflare Pages)
 
-#### **Vercel**
+#### **Vercel CLI**
 ```bash
-npm install -g vercel
-vercel
+npx vercel --prod
 ```
-*Build Command*: `npm run build`  
-*Output Directory*: `dist`
+- **Build Command**: `npm run build`
+- **Output Directory**: `dist`
 
 #### **Netlify**
-- Link your GitHub repository in the Netlify Dashboard.
-- Set Build Command to `npm run build` and Publish Directory to `dist`.
+- Connect the Git repository in the Netlify Console.
+- Configure **Build command** to `npm run build` and **Publish directory** to `dist`.
 
 ---
 
-## 📂 Project Structure
+## 🔒 Security & Persistence Architecture
 
-```text
-literaryMagazine/
-├── src/
-│   ├── components/
-│   │   ├── editor/          # Issue & Piece Editor Studio modals
-│   │   ├── issues/          # IssueCard & full-screen IssueReader
-│   │   ├── layout/          # Material 3 Navbar & Footer
-│   │   └── submissions/     # Student Submission portal modal
-│   ├── context/
-│   │   └── AuthContext.tsx  # Editor authentication & state
-│   ├── pages/
-│   │   ├── HomePage.tsx     # Hero showcase & latest volume
-│   │   ├── IssuesPage.tsx   # Sorted archive with filters & search
-│   │   ├── AboutPage.tsx    # Masthead, history & submission FAQ
-│   │   ├── LoginPage.tsx    # M3 Expressive editor sign-in
-│   │   └── EditorDashboard.tsx # Publication control suite
-│   ├── services/
-│   │   ├── mockData.ts      # Curated editions with student poetry/art
-│   │   └── storage.ts       # Persistence engine & CRUD API
-│   ├── types/
-│   │   └── magazine.ts      # TypeScript interfaces
-│   ├── App.tsx              # Main router & layout coordinator
-│   ├── index.css            # M3 Expressive tokens & spring curves
-│   └── main.tsx             # React DOM entry point
-├── Dockerfile               # Production Docker build
-├── docker-compose.yml       # Production container configuration
-├── nginx.conf               # Nginx routing config
-├── server.js                # Optional Node.js production server
-└── README.md                # Comprehensive documentation
-```
+- **Client Storage Engine**: Utilizes structured browser persistence (`localStorage` with JSON schema validation) for offline resilience and immediate zero-backend deployment.
+- **Backend Extensibility**: The storage layer is decoupled into `src/services/storage.ts`, allowing drop-in substitution with REST APIs, Firebase, or PostgreSQL backends.
+- **Sanitization**: Form inputs are validated and formatted before publication.
 
 ---
 
-## 📜 License & Copyright
+## 📄 License
 
-&copy; 2026 Notre Dame High School Literary Board. All student works are copyright of their respective student authors and artists.
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+
+---
+
+*Notre Dame High School Literary Board • Volume 34 (2025–2026)*
