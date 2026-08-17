@@ -7,7 +7,7 @@
 [![React](https://img.shields.io/badge/Frontend-React%2019%20%7C%20TypeScript-61DAFB?style=flat-square&logo=react)](https://react.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Styling-Tailwind%20CSS%20v4-38B2AC?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/)
 [![Vite](https://img.shields.io/badge/Bundler-Vite%207-646CFF?style=flat-square&logo=vite)](https://vitejs.dev/)
-[![AI Vibe Coded](https://img.shields.io/badge/Development-AI%20Vibe%20Coded-8B5CF6?style=flat-square&logo=sparkles)](https://github.com/)
+[![AI Vibe Coded](https://img.shields.io/badge/Development-AI%20Vibe%20Coded-8B5CF6?style=flat-square&logo=sparkles)](https://github.com/BLightAdee/literaryMagazineTest)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
 ---
@@ -107,8 +107,8 @@ The user interface follows the **Google Material 3 Expressive** design principle
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/<your-organization>/our-lady-magazine.git
-   cd our-lady-magazine
+   git clone https://github.com/BLightAdee/literaryMagazineTest.git
+   cd literaryMagazineTest
    ```
 
 2. **Install project dependencies**:
